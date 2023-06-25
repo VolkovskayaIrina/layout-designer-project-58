@@ -135,6 +135,20 @@ header::before,
 
 .distortion-effect:nth-of-type(even) {
     background-color: var(--brown);
+    color: var(--white);
+}
+
+.distortion-effect:nth-of-type(even) .effect-summary {
+    flex-direction: row-reverse;
+}
+
+.distortion-effect:nth-of-type(even) .summary-sub-heading {
+    color: var(--transparent-white);
+}
+
+.distortion-effect:nth-of-type(even) .columns-header {
+    background-color: var(--white);
+    color: var(--brown);
 }
 
 .video-section-heading {
@@ -212,7 +226,6 @@ header::before,
     font-family: Neucha;
     font-size: 24px;
     color: var(--transparent-dark);
-   
 }
 
 .effect-summary {
@@ -241,5 +254,5 @@ header::before,
 
 .effect-text > h3 {
     margin: 0;
-
 }
+
