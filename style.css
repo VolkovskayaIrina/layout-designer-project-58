@@ -34,6 +34,7 @@ h1 {
 
 h2 {
     font-size: 60px;
+    font-weight: 400;
     line-height: 1.2em;
 }
 
@@ -81,6 +82,7 @@ h3 {
 header,
 section,
 footer {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +96,6 @@ header > div {
 }
 
 header {
-    position: relative;
     background-color: var(--light);
 }
 
@@ -124,3 +125,23 @@ header::before {
     background-size: cover;
     opacity: 0.1;
 }
+
+.video-section-heading {
+    margin-top: 0;
+    margin-bottom: 27px;
+    text-align: center;
+}
+
+.video {
+    position: absolute;
+    bottom: -100px;
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.sub-heading {
+    margin-bottom: 415px;
+}
+
+
+
+
