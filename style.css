@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: url("./fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf") format("truetype");
+    src: url("./fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
@@ -21,12 +21,14 @@
 }
 
 body {
+    margin: 0;
     font: 16px/1.6em "Open Sans", sans-serif;
     color: #2A2626;
 }
 
 h1 {
     font-size: 72px;
+    font-weight: 400;
     line-height: 1.2em;
 }
 
@@ -44,6 +46,38 @@ h3 {
     font-family: Neucha;
 }
 
+.orange-text {
+    color: var(--main);
+}
+
+.columns {
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.columns :first-child {
+    margin-top: 0;
+}
+
+.columns p:last-of-type {
+    margin-bottom: 0;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 24px;
+    font-weight: 700;
+    background-color: var(--main);
+    text-decoration: none;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #EA7600;
+}
+
 header,
 section,
 footer {
@@ -51,6 +85,42 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 1110px;
     padding: 100px 0;
+}
+
+header > div {
+    z-index: 2;
+    max-width: 1110px;
+}
+
+header {
+    position: relative;
+    background-color: var(--light);
+}
+
+.header-image {
+    position: absolute;
+    top: 55px;
+    right: -170px;
+    z-index: 2;
+    height: 525px;
+}
+
+.header-heading {
+    margin-top: 0;
+    margin-bottom: 185px;
+}
+
+header::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    content: "";
+    background: url("./images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
 }
