@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VolkovskayaIrina/layout-designer-project-58</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -22,7 +23,6 @@
         </div>
         <img src="./images/main.png" alt="Чувак кодит">
     </header>
-
     <main>
         <section>
             <h2 class="heading">
@@ -31,46 +31,55 @@
             </h2>
             <span class="sub-heading">Что такое когнитивные искажения. Petrovna Channel</span>
             <video controls>
-                <source src="ссылка на видео" type="video/mp4"></source>
+                <source src="ссылка на видео" type="video/mp4">
+                </source>
             </video>
         </section>
-
         <section class="distortion-list-section">
             <ul class="card-list">
                 <li class="heading-card">
                     <span class="orange-text heading">5 когнитивных искажений</span>
                     <span class="heading">
-                    о существовании которых стоит помнить</span>
+                        о существовании которых стоит помнить</span>
                 </li>
                 <li>
-                    <p class="card-number">1</p>
-                    <h3 class="orange-text heading">Эффект ИКЕА</h3>
-                    <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
+                    <a href="#effect1">
+                        <p class="card-number">1</p>
+                        <h3 class="orange-text heading">Эффект ИКЕА</h3>
+                        <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
+                    </a>
                 </li>
                 <li>
-                    <p class="card-number">2</p>
-                    <h3 class="orange-text heading">Преждевременная оптимизация</h3>
-                    <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+                    <a href="#effect2">
+                        <p class="card-number">2</p>
+                        <h3 class="orange-text heading">Преждевременная оптимизация</h3>
+                        <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+                    </a>
                 </li>
                 <li>
-                    <p class="card-number">3</p>
-                    <h3 class="orange-text heading">Искажение новизны</h3>
-                    <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
+                    <a href="#effect3">
+                        <p class="card-number">3</p>
+                        <h3 class="orange-text heading">Искажение новизны</h3>
+                        <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
+                    </a>
                 </li>
                 <li>
-                    <p class="card-number">4</p>
-                    <h3 class="orange-text heading">Гиперболическое обесценивание</h3>
-                    <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
+                    <a href="#effect4">
+                        <p class="card-number">4</p>
+                        <h3 class="orange-text heading">Гиперболическое обесценивание</h3>
+                        <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
+                    </a>
                 </li>
                 <li>
-                    <p class="card-number">5</p>
-                    <h3 class="orange-text heading">Ошибка планирования</h3>
-                    <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
+                    <a href="#effect5">
+                        <p class="card-number">5</p>
+                        <h3 class="orange-text heading">Ошибка планирования</h3>
+                        <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
+                    </a>
                 </li>
             </ul>
         </section>
-        
-        <section class="distortion-effect">
+        <section class="distortion-effect" id="effect1">
             <div class="effect-summary">
                 <div class="effect-image">
                     <img src="./images/1.png" alt="Два чувака за компом, один ментор">
@@ -87,8 +96,7 @@
                 <p>Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового решения, вы понимаете, о чём я говорю.</p>
             </div>
         </section>
-
-        <section class="distortion-effect">
+        <section class="distortion-effect" id="effect2">
             <div class="effect-summary">
                 <div class="effect-image">
                     <img src="./images/2.png" alt="Чувак с ракетой">
@@ -105,8 +113,7 @@
                 <p>Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
             </div>
         </section>
-
-        <section class="distortion-effect">
+        <section class="distortion-effect" id="effect3">
             <div class="effect-summary">
                 <div class="effect-image">
                     <img src="./images/3.png" alt="Чувак с лампочкой">
@@ -123,8 +130,7 @@
                 <p>Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
             </div>
         </section>
-
-        <section class="distortion-effect">
+        <section class="distortion-effect" id="effect4">
             <div class="effect-summary">
                 <div class="effect-image">
                     <img src="./images/4.png" alt="Чувак возле горы и сундук золота">
@@ -141,8 +147,7 @@
                 <p>Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
             </div>
         </section>
-
-        <section class="distortion-effect">
+        <section class="distortion-effect" id="effect5">
             <div class="effect-summary">
                 <div class="effect-image">
                     <img src="./images/5.png" alt="Чувак с блокнотом перед часами">
@@ -160,7 +165,20 @@
                 <p>Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.</p>
             </div>
         </section>
-
+        <footer>
+            <form>
+                <h3 class="heading">Хотите узнать больше? Подпишитесь на обновления</h3>
+                <div>
+                    <label for="email">Электронная почта</label>
+                    <input id="email">
+                    <input type="submit">
+                    <span class="input-sub-heading">Подписываясь, вы принимаете <a href="#">правила сервиса</a></span>
+                </div>
+            </form>
+            <p>© 2020 Константин Константинопольский</p>
+            <p>По материалам статьи <a href="#">Yash Ranadive Cognitive Biases in Programming</a></p>
+            <p><a href="#">Курсы программирования Hexlet</a></p>
+        </footer>
     </main>
 </body>
 
