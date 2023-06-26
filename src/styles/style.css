@@ -12,12 +12,12 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: url("./fonts/OpenSans-Regular.ttf") format("truetype");
+    src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: Neucha;
-    src: url("./fonts/Neucha-Regular.ttf") format("truetype");
+    src: url("../fonts/Neucha-Regular.ttf") format("truetype");
 }
 
 body {
@@ -127,7 +127,7 @@ header::before,
     right: 0;
     z-index: 1;
     content: "";
-    background: url("./images/background.png");
+    background: url("../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.1;
@@ -316,7 +316,7 @@ label {
     content: "";
     width: 24px;
     height: 24px;
-    background-image: url("./images/send.svg");
+    background-image: url("../images/send.svg");
 }
 
 .input-sub-heading {
