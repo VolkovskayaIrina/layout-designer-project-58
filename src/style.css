@@ -105,8 +105,8 @@ header {
 .header-image {
     position: absolute;
     top: 55px;
-    right: -170px;
-    z-index: 2;
+    right: -110px;
+    z-index: -1;
     height: 525px;
 }
 
@@ -160,7 +160,7 @@ header::before,
 
 .video {
     position: absolute;
-    bottom: -100px;
+    bottom: -84px;
     z-index: 1;
     border: none;
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
@@ -237,6 +237,7 @@ header::before,
 
 .effect-image > img {
     vertical-align: middle;
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .columns-header {
@@ -249,7 +250,7 @@ header::before,
     text-transform: uppercase;
 }
 
-.effect-text > h1 {
+.effect-text > h2 {
     margin-top: 0;
     margin-bottom: 30px;
 }
