@@ -175,7 +175,7 @@ header::before,
 
 #navigation {
     padding-top: 216px;
-    background-color: var(--dark);
+    background-color: var(--dark-main);
 }
 
 .card-list {
